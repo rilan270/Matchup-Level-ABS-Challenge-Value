@@ -6,6 +6,7 @@
 - Our project has a few features:
     - A matchup generator that will produce three charts:
         - A projected RE288 chart for the chosen matchup.
+        - A chart showing the difference between actual observed RE288 and the projected RE288 for the chosen matchup
         - A chart with the corresponding ABS challenge values for those 288 situations.
         - A chart showing the confidence value needed to use the challenge.
             - This value is also called the breakeven rate. If you challenge 100 times in a situation with a 30% confidence value and you are correct 30 times. You will net 0.0 runs from those challenges even though you were incorrect 70 times.
