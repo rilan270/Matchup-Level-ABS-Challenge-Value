@@ -68,7 +68,7 @@ matchup_df["base_state"] = (
     matchup_df["3b"].astype(int).astype(str)
 )
 
-base_order = ["000", "100", "010", "110", "001", "101", "011", "111"]
+base_order = ["000", "100", "010", "001", "110", "101", "011", "111"]
 
 matchup_df["base_state"] = pd.Categorical(matchup_df["base_state"], categories=base_order, ordered=True)
 
